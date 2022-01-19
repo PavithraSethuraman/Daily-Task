@@ -1,0 +1,25 @@
+2.  Write a blog on Difference between HTTP1.1 vs HTTP2
+
+ Hypertext Transfer Protocol (HTTP) is an application protocol that is, currently, the foundation of data communication for the World Wide Web.
+
+These are the high-level differences between HTTP1 and HTTP2:
+•	HTTP2 is binary, instead of textual
+•	HTTP2 is fully multiplexed, instead of ordered and blocking
+•	HTTP2 can, therefore, use one connection for parallelism
+•	HTP2 uses header compression to reduce overhead
+•	HTTP2 allows servers to “push” responses proactively into client caches
+
+3. Write a blog about objects and its internal representation in Javascript
+
+Objects are complex and each object may contain a combination of primitive data-types as well as reference data-types.
+An object is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+Every object has some property associated with some value. These values can be accessed using these properties associated with them.
+var myCar = new Object();
+myCar.make = 'Suzuki';
+myCar.model = 'Altros';
+myCar.year = 1978;
+myCar.wheels = 2;
+After creating myCar object, the value inside the object can be accessed using keys.
+i.e. myCar.year
+Output: 1978
+These values can be accessed using brackets notation also.
